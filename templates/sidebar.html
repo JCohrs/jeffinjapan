@@ -5,6 +5,10 @@
         .card{
             box-shadow: 0 16px 48px #E3E7EB;
         }
+        .social__container {
+            display: flex;
+            justify-content: space-between;
+        }
 
 </style>
 
@@ -17,9 +21,11 @@
             and I wouldn't have it any other way. I'm so glad I've been able to call this place home for as long as I have and I look forward to more years to come. Follow 
             along my adventures through this blog and my socials listed below!
         </p>
-        <a href="https://www.instagram.com/cohrslight/"><img src="{% static '/admin/img/instagram.svg' %}" style="width:50px;height:50px;"></a>
-        <a href="https://www.youtube.com/@cohrs_light"><img src="{% static '/admin/img/youtube.svg' %}" style="width:50px;height:50px;"></a>
-        <a href="https://twitter.com/Jeff_Cohrs"><img src="{% static '/admin/img/twitter.svg' %}" style="width:50px;height:50px;"></a>
+        <div class="social__container">
+            <a href="https://www.instagram.com/cohrslight/"><img src="{% static '/admin/img/instagram.svg' %}" style="width:50px;height:50px;"></a>
+            <a href="https://www.youtube.com/@cohrs_light"><img src="{% static '/admin/img/youtube.svg' %}" style="width:50px;height:50px;"></a>
+            <a href="https://twitter.com/Jeff_Cohrs"><img src="{% static '/admin/img/twitter.svg' %}" style="width:50px;height:50px;"></a>
+        </div>
     </div>
 </div>
 </div>
